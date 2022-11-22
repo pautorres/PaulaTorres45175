@@ -1,7 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
+
 body {
   background: #f1f1eb;
   font-family: "Jost";
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 210px;
+  background-color: #31393c;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  padding-top: 30px;
+}
+
+footer p {
+  color: #9ba1a9;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  footer p {
+    width: 31%;
+    padding: 1%;
+  }
 }
 
 nav {
@@ -11,15 +41,17 @@ nav {
   top: 0;
   z-index: 6;
 }
+
 nav .navbar-toggler {
   box-shadow: white 2px 2px 5px;
   z-index: 5;
 }
+
 nav .containers li,
-nav .mapa,
 nav .icon {
   display: none;
 }
+
 nav .offcanvas-body,
 nav .offcanvas-header {
   background-color: #bc4b51;
@@ -29,6 +61,7 @@ header {
   width: 100%;
   font-size: 0.8rem;
 }
+
 header h1 {
   margin-right: 10%;
   color: white;
@@ -82,20 +115,28 @@ header h1 {
     z-index: 4;
   }
 }
+
 @media screen and (min-width: 992px) {
-  nav .navbar, nav .container-fluid, nav .navbar-brand {
+
+  nav .navbar,
+  nav .container-fluid,
+  nav .navbar-brand {
     display: none;
   }
+
   .navbar {
     display: none;
   }
+
   .header-pc {
     background-position: center;
     padding: 13em 0 0 0;
   }
+
   .header-pc .containers {
     text-align: center;
   }
+
   .header-pc .containers h1 {
     margin: 0;
     font-weight: 1;
@@ -103,9 +144,11 @@ header h1 {
     text-transform: uppercase;
     text-shadow: none;
   }
+
   .dropdown-menu {
     display: none;
   }
+
   nav {
     position: fixed;
     width: 100%;
@@ -113,6 +156,7 @@ header h1 {
     top: 0;
     z-index: 7;
   }
+
   nav ul {
     top: 0;
     margin-right: 10%;
@@ -120,38 +164,45 @@ header h1 {
     float: right;
     z-index: 3;
   }
+
   nav .containers {
     display: block;
     margin: 0;
     padding: 0 0;
   }
+
   nav .containers .icon {
     padding-top: 8px;
     margin-left: 5%;
     max-width: 4em;
     display: inline-block;
   }
+
   nav .containers li {
     display: inline-block;
     padding: 1.33em;
     text-align: center;
     transition: all 0.2s;
   }
+
   nav .containers li a {
     color: #fff;
     text-decoration: none;
     transition: all 0.3s;
     text-shadow: 1px 0px 6px rgba(0, 0, 0, 0.81);
   }
+
   nav .containers li h1 {
     font-size: 4em;
     padding-bottom: 10%;
   }
+
+  nav .containers li a:hover {
+    color: #ddd;
+  }
+
   nav li:last-child {
     padding-right: 0;
-  }
-  nav a:hover {
-    color: #ddd;
   }
 }
 

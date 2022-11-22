@@ -1,1 +1,14 @@
-@use "variables"
+@use "variables" ;
+
+body {
+    background: variables.$blanco;
+    font-family: "Jost";
+}
+
+
+
+
+
+
+
+

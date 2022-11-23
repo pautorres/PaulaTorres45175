@@ -1,24 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
-.header-pc {
-  background-image: url(..fotos/1);
-}
-
-.header-pc {
-  background-image: url(..fotos/2);
-}
-
-.header-pc {
-  background-image: url(..fotos/3);
-}
-
-.header-pc {
-  background-image: url(..fotos/4);
-}
-
-.header-pc {
-  background-image: url(..fotos/5);
-}
-
 body {
   background: #f1f1eb;
   font-family: "Jost";
@@ -230,13 +210,13 @@ footer p {
   text-align: center;
   justify-content: center;
 }
-
 @media screen and (min-width: 992px) {
   footer p {
     width: 31%;
     padding: 1%;
   }
 }
+
 .header1 {
   background-image: url(../fotos/1.jpg);
 }

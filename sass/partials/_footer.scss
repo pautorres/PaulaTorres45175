@@ -6,7 +6,7 @@ footer {
     flex-wrap: wrap;
     width: 100%;
     min-height: 210px;
-    background-color: #31393c;
+    background-color: variables.$gris;
     margin-top: 5%;
     align-items: center;
     justify-content: center;
@@ -18,12 +18,7 @@ footer {
         width: 45%;
         text-align: center;
         justify-content: center;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    footer {
-        p {
+        @media screen and (min-width: 992px) {
             width: 31%;
             padding: 1%;
         }

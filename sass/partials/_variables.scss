@@ -1,6 +1,4 @@
-
-
-// colors 
+// colors
 $rojo: #bc4b51;
 $gris: #31393c;
 $blanco: #f1f1eb;
@@ -9,3 +7,10 @@ $blanco: #f1f1eb;
 
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 $font: Jost;
+
+$path: "1";
+@for $path from 1 through 5 {
+    .header-pc {
+        background-image: url(..fotos/#{$path});
+    }
+}

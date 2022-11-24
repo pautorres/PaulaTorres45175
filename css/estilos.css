@@ -35,11 +35,14 @@ body {
   padding: 0;
 }
 .div2 .carousel-item {
-  height: 25rem;
+  height: 23rem;
 }
 
+.div3 {
+  margin-top: 14%;
+}
 .div3 .flip {
-  padding: 90px 0;
+  padding: 50px 0;
   margin: 1% 0;
   position: relative;
   align-items: center;
@@ -155,18 +158,19 @@ body {
   }
   .cards .div2 .carousel-item,
   .cards .div2 .container {
-    height: 19rem;
+    height: 18rem;
   }
 }
 @media screen and (min-width: 992px) and (min-width: 1450px) {
   .cards .div2 .carousel-item,
   .cards .div2 .container {
-    height: 23rem;
+    height: 20rem;
   }
 }
 @media screen and (min-width: 992px) {
   .cards .div3 {
     grid-area: 1/1/3/2;
+    margin-top: 0%;
   }
   .cards .div3 .flip {
     margin: 4%;
@@ -178,7 +182,7 @@ body {
     box-shadow: rgba(14, 21, 47, 0.2) 0px 8px 20px;
   }
   .cards .div3 .flip .front {
-    padding: 16% 0;
+    padding: 11% 0;
   }
   .cards .div3 .flip .back {
     text-align: center;
@@ -335,7 +339,7 @@ header .header-pc {
   header .header-pc .containers h1 {
     margin: 0;
     font-weight: 1;
-    font-size: 3.2em;
+    font-size: 3.22em;
     text-transform: uppercase;
     text-shadow: none;
   }
@@ -435,6 +439,59 @@ form h2 {
   form {
     max-width: 850px;
     margin: 4% auto;
+  }
+}
+
+.precios .empanadas {
+  font-size: 1.8rem;
+  width: 70%;
+  background-color: #ddd;
+  margin: 9% auto;
+  border-radius: 15px;
+}
+.precios .empanadas img {
+  width: 95%;
+  position: relative;
+  transform: translate(-5%, -5%);
+  border-radius: 5px;
+  box-shadow: 0px 10px 40px 0px rgba(76, 70, 124, 0.5);
+  z-index: 1;
+}
+.precios .empanadas .fondo {
+  width: 60%;
+  box-shadow: 0px 10px 40px 0px rgba(76, 70, 124, 0.5);
+  z-index: 0;
+  position: absolute;
+  transform: translate(-110%, 12%);
+  filter: blur(10px);
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.precios .empanadas h2 {
+  text-align: center;
+  padding: 5px 0 17px 0;
+  color: #616169;
+  text-shadow: #e0e0e0 1px 1px 0;
+  font-weight: bolder;
+}
+.precios .precio {
+  font-weight: bold;
+  color: #31393c;
+  max-width: 70%;
+  background-color: #ddd;
+  margin: 5% auto;
+  margin-top: -7%;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+@media screen and (min-width: 992px) {
+  .precios {
+    margin: 10% auto;
+    max-width: 800px;
+  }
+  .precios .fondo {
+    max-width: 480px;
   }
 }
 

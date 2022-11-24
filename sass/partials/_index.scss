@@ -15,6 +15,13 @@ body {
         width: 100%;
         text-align: center;
         font-weight: bold;
+        animation-name: focus-in-expand-top;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
     }
     .mapa {
         display: none;

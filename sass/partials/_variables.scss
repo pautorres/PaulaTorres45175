@@ -7,3 +7,19 @@ $blanco: #f1f1eb;
 
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");
 $font: Jost;
+
+//animacion texto
+
+@keyframes focus-in-expand-top {
+    0% {
+        letter-spacing: -0.5em;
+        transform: translateY(-300px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    0% {
+        transform: translateY(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}

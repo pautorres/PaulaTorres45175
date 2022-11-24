@@ -1,0 +1,97 @@
+@use "variables";
+
+.empleados {
+    h2 {
+        text-align: center;
+        text-shadow: 1px 2px 3px #ddeeff, 0 0 0 black, -1px 1px 0 #ddeeff, 1px 1px 0 white;
+
+        color: rgba(254, 103, 2, 0.8);
+        letter-spacing: -5px;
+        font-weight: bold;
+        font-size: 3em;
+
+        animation-name: focus-in-expand-top;
+        animation-duration: 1s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+    }
+}
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .snip1515 {
+        background-color: #dddd;
+        position: relative;
+        margin: 30px;
+        min-width: 230px;
+        max-width: 500px;
+        width: 100%;
+        color: #000000;
+        text-align: center;
+        line-height: 1.4em;
+        font-size: 14px;
+        box-shadow: none;
+        figcaption {
+            width: 100%;
+            background-color: #d3d5da;
+            color: #2e3a3e;
+            padding: 125px 25px 25px;
+            margin-top: -100px;
+            display: inline-block;
+        }
+
+        .profile-image {
+            display: inline-block;
+            width: 80%;
+            z-index: 1;
+            position: relative;
+            padding: 10px;
+            border: 2px solid #f6aa1c;
+            img {
+                max-width: 100%;
+                vertical-align: top;
+            }
+        }
+        h3,
+        h4,
+        p {
+            margin: 0 0 5px;
+        }
+        h3 {
+            font-weight: 600;
+            font-size: 1.3em;
+        }
+        h4 {
+            color: #b9935c;
+            font-weight: 400;
+            letter-spacing: 2px;
+        }
+        p {
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            opacity: 0.9;
+        }
+        .icons {
+            text-align: center;
+            width: 100%;
+        }
+        i {
+            padding: 10px 2px;
+            display: inline-block;
+            font-size: 18px;
+            font-weight: normal;
+            color: #e8b563;
+            opacity: 0.75;
+        }
+        i:hover {
+            opacity: 1;
+            -webkit-transition: all 0.35s ease;
+            transition: all 0.35s ease;
+        }
+    }
+}

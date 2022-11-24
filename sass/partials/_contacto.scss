@@ -4,6 +4,9 @@
 
 .contactanos {
     .titulos {
+        animation-name: focus-in-expand-top;
+        animation-duration: 0.8s;
+        animation-timing-function: ease;
         background-color: #f6aa1c;
         color: white;
         font-size: 0.9rem;

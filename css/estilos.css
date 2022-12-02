@@ -18,10 +18,10 @@ body {
 }
 
 .div1 .letterpress {
-  text-shadow: 1px 2px 3px #ddeeff, 0 0 0 black, -1px 1px 0 #ddeeff, 1px 1px 0 white;
-  color: rgba(254, 103, 2, 0.8);
-  letter-spacing: -5px;
-  font-size: 3em;
+  text-shadow: 1px 2px 3px #c6cacf, 0 0 0 black, -1px 1px 0 #ddeeff, 1px 1px 0 white;
+  color: #c98a0c;
+  letter-spacing: -3px;
+  font-size: 2em;
   width: 100%;
   text-align: center;
   font-weight: bold;
@@ -37,9 +37,6 @@ body {
   display: none;
 }
 
-.div2 .container {
-  height: 500px;
-}
 .div2 .carousel-1 {
   background: url("https://images.unsplash.com/photo-1619926096619-5956ab4dfb1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80") no-repeat center center/cover;
 }
@@ -59,7 +56,7 @@ body {
 }
 
 .div3 {
-  margin-top: 14%;
+  margin-top: 10%;
 }
 .div3 .flip {
   padding: 50px 0;
@@ -93,20 +90,19 @@ body {
   background-color: #212020;
 }
 .div3 .flip .back h2 {
-  font-size: 1.1rem;
-  height: 22%;
-  margin: 1% 0 1% 0%;
+  margin: 1% 0 1% 0;
+  height: 19%;
 }
 .div3 .flip .back p {
-  margin: 0 5%;
+  justify-content: center;
 }
 @media screen and (min-width: 510px) {
   .div3 .flip .back h2 {
-    margin: 1% 0 1% 0;
+    height: 26%;
     font-size: 1.5rem;
   }
   .div3 .flip .back p {
-    margin: 2% 5% 0 5%;
+    margin: 1.5% 5%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -176,22 +172,24 @@ body {
     transform: translate(0, -10%);
   }
   .cards .div1 .letterpress {
-    font-size: 1.9rem;
+    letter-spacing: -5px;
+    font-size: 2.4rem;
     z-index: 1;
     position: relative;
   }
   .cards .div2 {
+    margin-top: 1rem;
     grid-area: 2/2/3/3;
   }
   .cards .div2 .carousel-item,
   .cards .div2 .container {
-    height: 18rem;
+    height: 14rem;
   }
 }
 @media screen and (min-width: 992px) and (min-width: 1450px) {
   .cards .div2 .carousel-item,
   .cards .div2 .container {
-    height: 20rem;
+    height: 19rem;
   }
 }
 @media screen and (min-width: 992px) {
